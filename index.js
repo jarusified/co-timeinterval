@@ -2,15 +2,17 @@ var ms = require('ms'),
 	co = require('co');
 
 function wait(ms){
-	console.log('sf');
 	return function(done){
 		setTimeout(done,ms);
 	}
 }
 
 module.exports = function(ms,fn){
-	//console.log(fn.constructor.name);
+	if ('string' == typeof ms) ms = parse(ms);
 	co(function* (){
-		yield wait(1000);
+		while(1){
+			yield wait(ms);
+			fn.apply();
+		}
 	})();
 };
