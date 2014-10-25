@@ -1,5 +1,4 @@
-var ms = require('ms'),
-	co = require('co'),
+var	co = require('co'),
 	Emitter = require('co-emitter');
 var emitter = new Emitter();
 

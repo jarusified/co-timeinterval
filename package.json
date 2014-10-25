@@ -1,0 +1,30 @@
+{
+	"name":"co-timeout",
+	"version":"0.0.1",
+	"description":"simple way to call functions infinitely after a given interval",
+	"repository":"jarusified/co-timeinterval",
+	"author":{
+		"name":"suraj jarus",
+		"email":"jarus3001@gmail.com"
+	},
+	"engines":{
+		"node":">=0.10.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"infinite",
+		"loop",
+		"call",
+		"functions",
+		"timeinterval"
+	],
+	"dependencies":{
+		"co":"^3.0.6",
+		"co-emitter":"0.2.3"
+	},
+	"devDependencies":{
+		"co":"^3.0.6"
+	}
+}
