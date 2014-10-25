@@ -1,6 +1,6 @@
 {
-	"name":"co-timeout",
-	"version":"0.0.1",
+	"name":"co-timeinterval",
+	"version":"0.0.2",
 	"description":"simple way to call functions infinitely after a given interval",
 	"repository":"jarusified/co-timeinterval",
 	"author":{
